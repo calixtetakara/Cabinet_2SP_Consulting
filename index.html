@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinet 2SP CONSULTING </title>
+    <link rel="icon" href="Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+      
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <div class="logo-placeholder"><img src="assets/Logo.png" alt=""></div>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#team">Équipe</a></li>
+                    <li><a href="Acualiteclient.html">Actualités</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                     
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section avec Slider -->
+    <section id="accueil" class="hero-slider">
+        <div class="slide slide-1 active">
+            <div class="container hero-content">
+                <h1>Expertise en formation et analyse de données</h1>
+                <p>Le cabinet 2SP CONSULTING vous offre des solutions fiables, innovantes et sur mesure pour vos projets académiques, études professionnelles et planifications.</p>
+                <a href="#contact" class="btn">Nous contacter</a>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="container hero-content">
+                <h1>Cartes géographiques et croquis de précision</h1>
+                <p>Instruments de référence pour vos travaux académiques, études professionnelles et projets de planification.</p>
+                <a href="#services" class="btn">Découvrir nos services</a>
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="container hero-content">
+                <h1>Solutions fiables, innovantes et sur mesure</h1>
+                <p>Optez pour l'excellence et la justesse des informations avec 2SP CONSULTING.</p>
+                <a href="#about" class="btn">En savoir plus</a>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <div class="slider-dot active" data-slide="0"></div>
+            <div class="slider-dot" data-slide="1"></div>
+            <div class="slider-dot" data-slide="2"></div>
+        </div>
+    </section>
+
+    <!-- Services Section avec Slider -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="services-slider">
+                <div class="services-track">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <h3>Formation</h3>
+                        <p>Des programmes de formation sur mesure adaptés à vos besoins spécifiques, dispensés par des experts chevronnés.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-database"></i></div>
+                        <h3>Analyse et traitement des données</h3>
+                        <p>Solutions avancées d'analyse et d'interprétation de données pour une prise de décision éclairée.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-project-diagram"></i></div>
+                        <h3>Réalisation de projets</h3>
+                        <p>Accompagnement complet dans la conception et la mise en œuvre de vos projets techniques et professionnels.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <h3>Fourniture d'articles techniques</h3>
+                        <p>Cartes géographiques et croquis de précision pour vos travaux académiques et études professionnelles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de nous</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>2SP CONSULTING</h2>
+                    <p>Le cabinet 2SP CONSULTING, sis à Kara, se distingue par son expertise en formation, en analyse et traitement des données, en réalisation de projets ainsi qu'en fourniture d'articles techniques.</p>
+                    <p>Nous mettons à votre disposition des cartes géographiques et des croquis élaborés avec une précision rigoureuse et une fiabilité éprouvée, véritables instruments de référence pour vos travaux académiques, vos études professionnelles et vos projets de planification.</p>
+                    <p>Optez pour l'excellence et la justesse des informations. Avec 2SP CONSULTING, bénéficiez de solutions fiables, innovantes et sur mesure.</p>
+                    <a href="#contact" class="btn">Nous contacter</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/propos.webp" alt="Cabinet 2SP CONSULTING">
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Témoignage -->
+   <!-- =====================================================
+     SECTION TÉMOIGNAGES — À insérer dans index.html
+     juste après la section #team / avant #contact
+====================================================== -->
+<section id="temoignages" class="temoignage">
+    <div class="container">
+        <h2 class="section-title">Ce que disent nos clients</h2>
+        <p class="section-subtitle">La satisfaction de nos clients est notre meilleure récompense</p>
+
+        <div class="temoignage-wrapper">
+            <div class="temoignage-track" id="temTrack">
+
+                <!-- Témoignage 1 -->
+                <div class="temoignage-card">
+                    <div class="temoignage-inner">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="temoignage-text">
+                            « Grâce à 2SP CONSULTING, j'ai pu finaliser mon mémoire de master dans les délais. Les cartes et croquis fournis étaient d'une précision remarquable, et l'équipe a su s'adapter à mes besoins spécifiques avec une réactivité exemplaire. »
+                        </p>
+                        <div class="temoignage-divider"></div>
+                        <div class="temoignage-author">
+                            <div class="author-avatar">KA</div>
+                            <div class="author-info">
+                                <h4>Koami Agbéko</h4>
+                                <span>Étudiant en géographie — Université de Kara</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Témoignage 2 -->
+                <div class="temoignage-card">
+                    <div class="temoignage-inner">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="temoignage-text">
+                            « La formation en analyse de données dispensée par 2SP CONSULTING a été une véritable révélation pour notre équipe. Les formateurs maîtrisent parfaitement leur domaine et savent transmettre des concepts complexes de façon claire et pratique. »
+                        </p>
+                        <div class="temoignage-divider"></div>
+                        <div class="temoignage-author">
+                            <div class="author-avatar">AM</div>
+                            <div class="author-info">
+                                <h4>Adjoua Mensah</h4>
+                                <span>Responsable RH — ONG Développement Nord-Togo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Témoignage 3 -->
+                <div class="temoignage-card">
+                    <div class="temoignage-inner">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="temoignage-text">
+                            « Nous avons confié à 2SP CONSULTING la réalisation de notre étude de zonage territorial. Le résultat a dépassé nos attentes : des données fiables, des analyses pertinentes et un rapport livré en temps et en heure. Je recommande vivement. »
+                        </p>
+                        <div class="temoignage-divider"></div>
+                        <div class="temoignage-author">
+                            <div class="author-avatar">YD</div>
+                            <div class="author-info">
+                                <h4>Yao Dossou</h4>
+                                <span>Directeur de projet — Mairie de Kara</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Témoignage 4 -->
+                <div class="temoignage-card">
+                    <div class="temoignage-inner">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="temoignage-text">
+                            « Professionnel, rigoureux et à l'écoute — voilà ce qui caractérise le cabinet 2SP CONSULTING. Leur accompagnement dans notre projet de collecte de données terrain a été décisif pour le succès de notre programme d'intervention. »
+                        </p>
+                        <div class="temoignage-divider"></div>
+                        <div class="temoignage-author">
+                            <div class="author-avatar">FB</div>
+                            <div class="author-info">
+                                <h4>Fatima Bawura</h4>
+                                <span>Chargée de programme — UNICEF Togo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /temoignage-track -->
+
+            <!-- Contrôles -->
+            <div class="temoignage-controls">
+                <button class="tem-btn" id="temPrev" aria-label="Précédent">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="tem-dots" id="temDots"></div>
+                <button class="tem-btn" id="temNext" aria-label="Suivant">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <p class="temoignage-counter" id="temCounter"></p>
+        </div>
+    </div>
+</section>
+<!-- ===== FIN SECTION TÉMOIGNAGES ===== -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informations de contact</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> À Kara, à l'étage de Détente, en face du Frigo Gloria, à proximité de l'ancien marché.</p>
+                        <p><i class="fas fa-phone"></i> (+228) 90 80 86 08</p>
+                        <p><i class="fas fa-phone"></i> (+228) 26 60 83 16</p>
+                        <p><i class="fas fa-envelope"></i> contact@2spconsulting.tg</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contactForm" action="send_email.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adresse email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.015232236639!2d1.186222074019249!3d9.55425856687997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMzMnMTUuMyJOIDHCsDExJzE3LjUiRQ!5e0!3m2!1sfr!2stg!4v1623750000000!5m2!1sfr!2stg" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>2SP CONSULTING</h3>
+                    <p>Expertise en formation, analyse de données, réalisation de projets et fourniture d'articles techniques.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Nos services</h3>
+                    <ul>
+                        <li><a href="#services">Formation</a></li>
+                        <li><a href="#services">Analyse de données</a></li>
+                        <li><a href="#services">Réalisation de projets</a></li>
+                        <li><a href="#services">Articles techniques</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#team">Équipe</a></li>
+                        <li><a href="Acualiteclient.html">Actualités</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                         
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kara, Togo</p>
+                    <p><i class="fas fa-phone"></i> (+228) 90 80 86 08</p>
+                    <p><i class="fas fa-phone"></i> (+228) 26 60 83 16</p>
+                    <p><i class="fas fa-envelope"></i> contact@2spconsulting.tg</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 2SP CONSULTING. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-button pulse">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chatbot-box">
+            <div class="chatbot-header">
+                <div class="chatbot-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Assistant 2SP</h3>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot">
+                    <div class="message-content">
+                        Bonjour ! Je suis l'assistant virtuel de 2SP CONSULTING. Comment puis-je vous aider aujourd'hui ?
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Tapez votre message...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Menu mobile
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        });
+
+        document.querySelectorAll(".nav-menu li a").forEach(n => n.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }));
+
+        // Slider Hero
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.slider-dot');
+        let currentSlide = 0;
+
+        function showSlide(n) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            currentSlide = (n + slides.length) % slides.length;
+            
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                showSlide(index);
+            });
+        });
+
+        // Slider automatique Hero
+        setInterval(() => {
+            showSlide(currentSlide + 1);
+        }, 5000);
+
+        // Slider Services
+        const servicesTrack = document.querySelector('.services-track');
+        const serviceCards = document.querySelectorAll('.service-card');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+        let currentIndex = 0;
+        const cardWidth = serviceCards[0].offsetWidth + 20; // width + margin
+
+        function moveSlider() {
+            servicesTrack.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < serviceCards.length - 3) {
+                currentIndex++;
+            } else {
+                currentIndex = 0;
+            }
+            moveSlider();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+            } else {
+                currentIndex = serviceCards.length - 3;
+            }
+            moveSlider();
+        });
+
+        // Chatbot
+        const chatbotButton = document.querySelector('.chatbot-button');
+        const chatbotBox = document.querySelector('.chatbot-box');
+        const chatInput = document.querySelector('.chatbot-input input');
+        const chatSend = document.querySelector('.chatbot-input button');
+        const chatMessages = document.querySelector('.chatbot-messages');
+
+        chatbotButton.addEventListener('click', () => {
+            chatbotBox.classList.toggle('active');
+        });
+
+        function addMessage(text, isUser) {
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message');
+            messageDiv.classList.add(isUser ? 'user' : 'bot');
+            
+            const messageContent = document.createElement('div');
+            messageContent.classList.add('message-content');
+            messageContent.textContent = text;
+            
+            messageDiv.appendChild(messageContent);
+            chatMessages.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        chatSend.addEventListener('click', () => {
+            const message = chatInput.value.trim();
+            if (message) {
+                addMessage(message, true);
+                chatInput.value = '';
+                
+                // Réponse automatique du chatbot
+                setTimeout(() => {
+                    let response = "";
+                    
+                    if (message.toLowerCase().includes('service') || message.toLowerCase().includes('prestation')) {
+                        response = "Nous proposons quatre services principaux : formation, analyse de données, réalisation de projets et fourniture d'articles techniques. Lequel vous intéresse ?";
+                    } else if (message.toLowerCase().includes('contact') || message.toLowerCase().includes('adresse') || message.toLowerCase().includes('téléphone')) {
+                        response = "Vous pouvez nous joindre au (+228) 90 80 86 08 ou au (+228) 26 60 83 16. Nous sommes situés à Kara, à l'étage de Détente, en face du Frigo Gloria, à proximité de l'ancien marché.";
+                    } else if (message.toLowerCase().includes('carte') || message.toLowerCase().includes('croquis')) {
+                        response = "Nous proposons des cartes géographiques et des croquis de précision pour vos travaux académiques et professionnels. Dites-moi plus sur votre projet pour que je puisse vous orienter.";
+                    } else if (message.toLowerCase().includes('formation')) {
+                        response = "Nos formations couvrent divers domaines techniques et professionnels. Elles sont dispensées par des experts et peuvent être adaptées à vos besoins spécifiques.";
+                    } else if (message.toLowerCase().includes('équipe') || message.toLowerCase().includes('directeur')) {
+                        response = "Notre équipe de direction est composée de professionnels expérimentés : Koffi Adjo (Directeur Général), Amah Ayité (Directeur Adjoint) et Évelyne Sena (Directrice des Projets).";
+                    } else {
+                        response = "Je ne suis pas sûr de comprendre. Pouvez-vous reformuler votre question ? Sinon, vous pouvez nous contacter directement par téléphone.";
+                    }
+                    
+                    addMessage(response, false);
+                }, 1000);
+            }
+        });
+
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                chatSend.click();
+            }
+        });
+
+        // Animation au défilement
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-card, .about-text, .about-image, .contact-info, .contact-form, .team-member').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Validation du formulaire
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                
+                if (name && email && subject && message) {
+                    // Envoyer les données au serveur (traitement PHP)
+                    this.submit();
+                } else {
+                    alert('Veuillez remplir tous les champs du formulaire.');
+                }
+            });
+        }
+        // ===== SCRIPT TÉMOIGNAGES =====
+(function() {
+    const track   = document.getElementById('temTrack');
+    const cards   = track.querySelectorAll('.temoignage-card');
+    const dotsEl  = document.getElementById('temDots');
+    const counter = document.getElementById('temCounter');
+    const prevBtn = document.getElementById('temPrev');
+    const nextBtn = document.getElementById('temNext');
+    const total   = cards.length;
+    let current   = 0;
+    let autoTimer = null;
+
+    // Créer les points
+    cards.forEach((_, i) => {
+        const dot = document.createElement('div');
+        dot.classList.add('tem-dot');
+        if (i === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => goTo(i));
+        dotsEl.appendChild(dot);
+    });
+
+    function updateUI() {
+        track.style.transform = `translateX(-${current * 100}%)`;
+        dotsEl.querySelectorAll('.tem-dot').forEach((d, i) => {
+            d.classList.toggle('active', i === current);
+        });
+        counter.textContent = `${current + 1} / ${total}`;
+    }
+
+    function goTo(n) {
+        current = (n + total) % total;
+        updateUI();
+    }
+
+    function startAuto() {
+        autoTimer = setInterval(() => goTo(current + 1), 6000);
+    }
+
+    function resetAuto() {
+        clearInterval(autoTimer);
+        startAuto();
+    }
+
+    prevBtn.addEventListener('click', () => { goTo(current - 1); resetAuto(); });
+    nextBtn.addEventListener('click', () => { goTo(current + 1); resetAuto(); });
+
+    // Swipe tactile
+    let touchStartX = 0;
+    track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', e => {
+        const diff = touchStartX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) { goTo(diff > 0 ? current + 1 : current - 1); resetAuto(); }
+    });
+
+    updateUI();
+    startAuto();
+})();
+    </script>
+</body>
+</html>
