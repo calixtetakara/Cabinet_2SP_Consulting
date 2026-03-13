@@ -199,18 +199,26 @@ img {
 .slide.active { opacity: 1; }
 
 .slide-1 {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-        url('https://ellistat.com/wp-content/uploads/2024/09/Analyse-de-donnees.png.webp') no-repeat center center/cover;
+    background: linear-gradient(lab(0% 0 0 / 0.7), rgba(0,0,0,0.7)),
+        url('/assets/informatiqueG.png') no-repeat center center/cover;
 }
 
 .slide-2 {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-        url('/assets/boussole.jpg') no-repeat center center/cover;
+        url('/assets/data.png') no-repeat center center/cover;
 }
 
 .slide-3 {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-        url('https://s7d1.scene7.com/is/image/wbcollab/Spring-meetings-energy-africa-landscape?qlt=90&fmt=webp&resMode=sharp2') no-repeat center center/cover;
+        url('/assets/Gemini_Generated_Image_7sxjgb7sxjgb7sxj.png') no-repeat center center/cover;
+}
+.slide-4 {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url('/assets/31c8709f-e8fb-4d17-bd9c-600d3e094b29.jfif') no-repeat center center/cover;
+}
+.slide-5 {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url('/assets/f47fcf3f692a6e304310157e83a4b3c7.jpg') no-repeat center center/cover;
 }
 
 .hero-content {
